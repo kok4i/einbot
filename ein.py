@@ -53,7 +53,7 @@ async def help(ctx):
     )
     embed.add_field(name="General", value="</poke:1056569502852194375> - to test if bot is up\n</help:1056782669104554048> - brings up this menu\n</imagebomb:1056574263081050182> - sends a random image of Ein :dog:", inline=False)
     
-    embed.add_field(name="Reactions - react with goofy images/gifs!", value="</react copecat:1056569502852194376>\n</react spicescat:1056569502852194376>\n</react stfubunny:1056569502852194376>\n</react fucat:1056569502852194376>\n</react huhcat:1056569502852194376>\n</react copecat:1056569502852194376>\n</react darncat:1056569502852194376>", inline=False)
+    embed.add_field(name="Reactions - react with goofy images/gifs!", value="</react copecat:1056956185804279888>\n</react spicescat:1056956185804279888>\n</react stfubunny:1056956185804279888>\n</react fucat:1056956185804279888>\n</react huhcat:1056956185804279888>\n</react copecat:1056956185804279888>\n</react darncat:1056956185804279888>", inline=False)
  
     await ctx.respond(f"Hello {ctx.author.mention}! \n\nEin is a simple discord bot with a variety of commands including reactions, moderation, and more. Just a past time project of mine and another excuse to learn python. Below is a list of commands that Ein has to offer.\n\nCreated by Walke#2306", embed=embed)
 
@@ -74,7 +74,7 @@ async def rules(ctx):
 
 cogs_list = [
     'reactions',
-    # 'moderation'
+    'moderation'
     
 ]
 
